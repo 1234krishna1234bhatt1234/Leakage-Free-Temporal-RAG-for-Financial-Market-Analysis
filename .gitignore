@@ -1,0 +1,7 @@
+﻿.env
+.env.*
+*.npz
+*.parquet
+chroma_db/
+__pycache__/
+.ipynb_checkpoints/
