@@ -1,7 +1,8 @@
 ﻿.env
-.env.*
-*.npz
-*.parquet
+data/
 chroma_db/
 __pycache__/
 .ipynb_checkpoints/
+*.sqlite3
+*.npz
+*.parquet
