@@ -18,7 +18,7 @@ IN_COLAB = importlib.util.find_spec("google.colab") is not None
 USE_DRIVE = IN_COLAB                   # override by hand if needed
 
 if USE_DRIVE:                          # on Colab, mount Drive in the notebook first
-    BASE = Path("/content/drive/MyDrive/ie624_project/data")
+    BASE = Path("/content/drive/MyDrive/ie624_project/data") ## write the corresponding path for the data folder
     CHROMA_PATH = Path("/content/chroma_full")      # keep Chroma on Colab's local disk
     DEVICE = "cuda"
 else:
